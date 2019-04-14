@@ -1,0 +1,154 @@
+
+.header-menu > ul > li > a{
+    font-size: 20px;
+    border-left: 1px solid #9e1126;
+    padding: 25px 15px 25px;
+}
+.header-menu > ul > li{
+    padding: unset;
+    border-left: 1px solid #ee5a70;
+    border-right: unset;
+}
+.header-menu > ul > li > a:hover{
+    background-color: #9e1126;
+    color: #fff;
+    text-decoration: unset
+}
+.header-menu {
+    padding: unset;
+}
+.header-menu ul > li.active > a > .under-line::after{ 
+    display: block;
+ }
+.header-menu ul > li > a:hover > .under-line::after{ 
+    display: block;
+}
+.header-menu ul > li > a > .under-line::after{
+    background-color: #fff;
+    bottom: 0;
+    content: '';
+    display: none;
+    height: 3px;
+    position: absolute;
+    width: 40px;
+    margin-left: -20px;
+}
+.header-menu ul > li > a.fa-home > .under-line::after{
+    margin-left: -10px;
+}
+
+.header-menu ul > li > a.menu-product > .under-line::after{
+    margin-left: 25px;
+}
+.header-menu ul > li > a.menu-categories > .under-line::after{
+    margin-left: 25px;
+}
+.header-menu ul > li > a.menu-treatment > .under-line::after{
+    margin-left: 15px;
+}
+.header-menu ul > li > a.menu-his-company > .under-line::after{
+    margin-left: 28px;
+}
+.header-menu ul > li > a.menu-brand > .under-line::after{
+    margin-left: 70px;
+}
+.header-menu ul > li > a.menu-news > .under-line::after{
+    margin-left: 13px;
+}
+.header-menu ul > li > a.menu-contact > .under-line::after{
+    margin-left: 13px;
+}
+.header-links>ul>li>a>i{
+    font-size: 20px;
+    color: #777777;
+}
+.header-links>ul>li>a>i:hover{
+    color: #9e1126;
+}
+.header-links>ul>li>a:hover{
+    color: #9e1126;
+}
+
+.header-upper {
+    border-bottom: unset;
+}
+.header-lower{
+    padding-top: unset;
+    padding-bottom: 20px;
+}
+.header-logo img{
+    width: 204px;
+    height: 90px;
+}
+.theme-custom .nivoSlider img{
+    min-height: 400px !important;
+}
+.swapper-search{
+    height: 42px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.search-box input.search-box-text{
+    border: unset;
+    margin-top: 10px;
+    margin-left: 11px;
+    height: 25px;
+}
+.search-form_submit.fas.fa-search{
+    background: no-repeat;
+    border: none;
+    font-size: 20px;
+    width: 25px;
+    height: 42px;
+    color: #c9c9c9;
+    padding-right: 5px;
+}
+.search-form_submit.fas.fa-search:hover{
+    
+    color: #9e1126;
+}
+.header-links-wrapper{
+    width: 100%;
+}
+
+.carousel-caption .more {
+    width: 190px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid #212121!important;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #212121;
+    line-height: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    z-index: 100;
+    background-color: unset;
+    border-radius: unset!important;
+}
+.master-wrapper-content{
+    width: 100%;
+}
+.carousel .carousel-inner img{
+    height: 450px!important;
+}
+.btn-primary:hover{
+    background-color: #9e1126;
+    color: #fff;
+    border: unset!important;
+}
+.header-menu.sologan > ul > li > a{
+    border-left: unset;
+    cursor: default;
+}
+.header-menu.sologan > ul > li > a:hover {
+    background-color:unset;
+}
+.theme-custom {
+    margin: -30px 0 0px;
+}
+@media (min-width: 1001px){
+       
+}
