@@ -1,39 +1,40 @@
-
+﻿﻿
 
 
 <!DOCTYPE html>
-<html class="html-home-page">
+<html >
 <head>
     <title>Your store</title>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="generator" content="nopCommerce" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <link href="jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="nivo-slider.css" rel="stylesheet" type="text/css" /> -->
+    
     <link href="custom.css" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
     <script src="jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" type="text/javascript"></script>
     <script src="public.common.js" type="text/javascript"></script>
-    <script src="ajaxcart.js" type="text/javascript"></script>
-    <script src="jquery.nivo.slider.js" type="text/javascript"></script>
+    
+    
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.4.0-3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.4.0-3.4.1/js/bootstrap.min.js"></script>
 
+    <link href="rd-navbar.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.rd-navbar.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="mycustom-theme.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="master-wrapper-page">
+    <!-- RD Navbar -->
     <div class="header">
         <div class="header-lower">
             <div class="header-logo">
@@ -62,122 +63,228 @@
                         <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" />
                         
                         <button class="search-form_submit fas fa-search" type="submit"></button>
+                    <!-- RD Navbar -->
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    <div class="sp-fullwidth-header-menu">
-        <div class="header-menu">
-            <ul class="top-menu">
-                
-                <li>
-                    <a  class="fas fa-home" href="test.html">
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                </li>
-                <li >
-                    <a class="menu-product" href="/computers">Sản Phẩm
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                    <div class="sublist-toggle"></div>
-                    <ul class="sublist first-level">
-                        <li>
-                            <a href="/desktops">Sub 1
-                                <span class="under-line" aria-hidden="true"></span>
-                            </a>
+    <div class="rd-navbar-wrap">
+            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="150px" class="rd-navbar">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Panel -->
+                    <div class="rd-navbar-panel">
+                        <div class="rd-navbar-panel-canvas"></div>
 
-                        </li>
-                        <li>
-                            <a href="/notebooks">Sub 2
-                                <span class="under-line" aria-hidden="true"></span>
-                            </a>
+                        <!-- RD Navbar Toggle -->
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                        <!-- END RD Navbar Toggle -->
+                    </div>
+                    <!-- END RD Navbar Panel -->
+                </div>
+                <div class="rd-navbar-outer">
+                    <div class="rd-navbar-inner">
+                        <div class="rd-navbar-subpanel">
+                            <div class="rd-navbar-nav-wrap">
+                                <!-- RD Navbar Nav -->
+                                <ul class="rd-navbar-nav">
+                                    <li class="active cus-home">
+                                        <!-- 
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a> -->
+                                        <a  href="test.html">
+                                            <i class="fas fa-home"></i>
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-product" href="/computers">Sản Phẩm
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                        <!-- RD Navbar Dropdown -->
+                                        <ul class="rd-navbar-dropdown">
+                                            <li>
+                                                <a href="shortcodes.php">Shortcodes</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor</a>
+                                                <ul class="rd-navbar-dropdown">
+                                                    <li>
+                                                        <a href='#'>Lorem ipsum dolor</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Nulla sequi, sint</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Corporis, quos, sit</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Dolor sit amet</a>
+                                            </li>
+                                        </ul>
+                                        <!-- END RD Navbar Dropdown -->
 
-                        </li>
-                        <li>
-                            <a href="/software">Sub 3
-                                <span class="under-line" aria-hidden="true"></span>
-                            </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-categories" href="/electronics">Danh Mục
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                        <!-- RD Navbar Megamenu -->
+                                        <ul class="rd-navbar-megamenu">
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Service</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Titanium Service</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Metal Service</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Detailing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Coating</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Steel Plate Shearing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Brazing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Annealing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Deburring</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Structural Steel Detailing</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel &amp; Round Bar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Plate &amp; Sheet</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>CNC, 7-Axis</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Mill Maintenance</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Structural Steel</a>
+                                                    </li>
 
-                        </li>
-                    </ul>
-                </li>
-                <li >
-                    <a class="menu-categories" href="/electronics">Danh Mục
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                    <div class="sublist-toggle"></div>
-                    <ul class="sublist first-level">
-                        <li>
-                            <a href="/camera-photo">Camera &amp; photo
-                            </a>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
 
-                        </li>
-                        <li>
-                            <a href="/cell-phones">Cell phones
-                            </a>
+                                                    <li>
+                                                        <a href='#'>Grinder Remanufacturing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Cutting</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Coating</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Polishing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Heat Treating</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Tube Fabrication &amp; Bending</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Hardening</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Welding</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <!-- END RD Navbar Megamenu -->
 
-                        </li>
-                        <li>
-                            <a href="/others">Others
-                            </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-treatment" href="/apparel">Điều Trị
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-his-company" href="/digital-downloads">Lịch Sử CT
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-brand" href="/books">Hệ Thống Phân Phối
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-news" href="/jewelry">Tin Tức
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-contact" href="/gift-cards">Liên Hệ
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- END RD Navbar Nav -->
+                            </div>
 
-                        </li>
-                    </ul>
-                </li>
-                <li >
-                    <a class="menu-treatment" href="/apparel">Điều Trị
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                    <div class="sublist-toggle"></div>
-                    <ul class="sublist first-level">
-                        <li>
-                            <a href="/shoes">Shoes
-                            </a>
-
-                        </li>
-                        <li>
-                            <a href="/clothing">Clothing
-                            </a>
-
-                        </li>
-                        <li>
-                            <a href="/accessories">Accessories
-                            </a>
-
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="menu-his-company" href="/digital-downloads">Lịch Sử CT
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                </li>
-                <li>
-                    <a class="menu-brand" href="/books">Hệ Thống Phân Phối
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                </li>
-                <li>
-                    <a class="menu-news" href="/jewelry">Tin Tức
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                </li>
-                <li>
-                    <a class="menu-contact" href="/gift-cards">Liên Hệ
-                        <span class="under-line" aria-hidden="true"></span>
-                    </a>
-                </li>
-            </ul>    
+                            <!-- RD Navbar Search Toggle -->
+                            <div class="rd-navbar-search-wrap">
+                                <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar, .rd-navbar-inner">
+                                    <i class="fas fa-times"></i>
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <div class="rd-navbar-search">
+                                    <form action="" method="post">
+                                        <div class="form-group">
+                                            <input id="rd-navbar-search-input" type="text" class="form-control"
+                                                   placeholder="">
+                                        </div>
+                                        <button type="submit" class="material-icons-search"></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- END RD Navbar Search Toggle -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </div>
+        <!-- END RD Navbar -->
     <div class="master-wrapper-content">
         <div class="master-column-wrapper">
             <div class="center-1">   
                 <div class="page home-page">
                     <div class="page-body">
-                            
-
                         <div class="slider-wrapper theme-custom">
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                         <!-- Indicators -->
@@ -433,7 +540,7 @@
                                 </div>    
                             </div>
                             <div class="view-all">
-                                <div class="view-more-news" data-aos-duration="1000" data-aos-delay="500" data-aos="flip-up">
+                                <div class="view-more-news" >
                                     <a href="#" class="btn btn-primary more">Xem Thêm</a>
                                 </div>
                             </div>
@@ -442,32 +549,32 @@
                             <div class="container">
                                 <div class="row offs1">
                                     <ul class="flex-list">
-                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" data-aos-duration="1000" data-aos-delay="400" data-aos="zoom-in">
+                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" >
                                             <a href="#">
                                                 <img src="images/page-1_img7.jpg" alt="">
                                             </a>  
                                         </li>
-                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" data-aos-duration="1000" data-aos-delay="500" data-aos="zoom-in">
+                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" >
                                             <a href="#">
                                                 <img src="images/page-1_img8.jpg" alt="">
                                             </a>  
                                         </li>
-                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" data-aos-duration="1000" data-aos-delay="600" data-aos="zoom-in">
+                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" >
                                             <a href="#">
                                                 <img src="images/page-1_img9.jpg" alt="">
                                             </a>  
                                         </li>
-                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" data-aos-duration="1000" data-aos-delay="700" data-aos="zoom-in">
+                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" >
                                             <a href="#">
                                                 <img src="images/page-1_img10.jpg" alt="">
                                             </a>  
                                         </li>
-                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" data-aos-duration="1000" data-aos-delay="800" data-aos="zoom-in">
+                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" >
                                             <a href="#">
                                                 <img src="images/page-1_img11.jpg" alt="">
                                             </a>  
                                         </li>
-                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" data-aos-duration="1000" data-aos-delay="900" data-aos="zoom-in">
+                                        <li class="col-lg-2 col-sm-3 col-xs-6 aos-init aos-animate" >
                                             <a href="#">
                                                 <img src="images/page-1_img12.jpg" alt="">
                                             </a>  
@@ -510,4 +617,5 @@
         </div>  
     </div>
 </div>
+<script src="custom-script.js"></script>
 </body>
