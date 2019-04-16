@@ -6,7 +6,7 @@
 .rd-navbar-wrap{
     height: unset!important;
 }
-.master-wrapper-content{
+.master-wrapper-content.fullscreen{
     margin: unset;
 }
 .rd-navbar-static .rd-navbar-nav > li{
@@ -224,7 +224,7 @@ ol, ul{
     background-color: unset;
     border-radius: unset!important;
 }
-.master-wrapper-content{
+.master-wrapper-content.fullscreen{
     width: 100%;
 }
 .carousel .carousel-inner img{
