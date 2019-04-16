@@ -255,7 +255,7 @@
               return $this.parent().addClass('rd-navbar--has-dropdown');
             }
           }).parents("li").addClass("rd-navbar-submenu");
-          $('<span class="rd-navbar-submenu-toggle"></span>').insertAfter('.rd-navbar-nav li.rd-navbar-submenu > a');
+          $('<span class="rd-navbar-submenu-toggle"><i class="fas fa-chevron-down"></i></span>').insertAfter('.rd-navbar-nav li.rd-navbar-submenu > a');
           if (ctx.options.callbacks.onDomAppend) {
             ctx.options.callbacks.onDomAppend.call(this);
           }

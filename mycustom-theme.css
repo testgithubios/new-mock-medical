@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css);
 .rd-navbar-outer{
     background-color: #e31837;
     color: #fff;
@@ -496,6 +497,19 @@ a.search-form_toggle{
     color: #e31837;
 }
 
+.rd-navbar-fixed .rd-navbar-nav li.active > a{
+    background-color: #e31837;
+}
+
+.rd-navbar-fixed ul li a span.under-line{
+    display: none!important;
+}
+
+.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-fixed .rd-navbar-nav li a:hover{
+    background-color: #9e1126;
+    color: #fff;
+    text-decoration: unset;
+}
 @media (max-width: 1000px){
     .theme-custom{
         max-width: unset;
@@ -507,4 +521,21 @@ a.search-form_toggle{
     .rd-mobilemenu, .rd-mobilepanel {
         display: block;
     }
+}
+.rd-navbar-fixed .rd-navbar-nav li a:hover .rd-navbar-submenu-toggle i{
+    color: #fff;
+}
+.rd-navbar-submenu.opened>.rd-navbar-submenu-toggle>i{
+    color: #fff;
+}
+.rd-navbar-fixed .rd-navbar-submenu-toggle{
+    top: 12;
+    color: #e31837;
+}
+.rd-navbar-fixed .rd-navbar-submenu-toggle:hover{
+    color: #e31837;
+}
+
+.rd-navbar-static .rd-navbar-submenu-toggle i{
+    display: none;
 }

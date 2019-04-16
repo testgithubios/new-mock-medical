@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css);
 /*
 * @subsection   RD Navbar
 * @description  Describes style declarations for RD Navbar extension
@@ -354,16 +355,16 @@
 .rd-navbar-fixed .rd-navbar-submenu-toggle:hover {
   color: #333;
 }
-
+/* 
 .rd-navbar-fixed .rd-navbar-submenu-toggle:before {
-  content: '\e5cf';
+  content: '';
   position: absolute;
   top: 50%;
   left: 0;
   right: 0;
   text-align: center;
   transform: translate(0, -50%);
-}
+} */
 
 /*
 * @subsection   RD Navbar Brand
