@@ -1,0 +1,637 @@
+<html >
+<head>
+    <title>Your store</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link href="jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    
+    <link href="custom.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="public.common.js" type="text/javascript"></script>
+    
+    <link href="rd-navbar.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.rd-navbar.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.4.0-3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.4.0-3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css">
+    <link href="mycustom-theme.css" rel="stylesheet" type="text/css" />
+    <link href="product.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="master-wrapper-page">
+    <div class="header">
+        <div class="header-lower">
+            <div class="header-logo">
+                <a href="/">
+                    <img title="" alt="Your store name" src="images/logo.PNG">
+                </a>
+            </div>
+            <div class="search-box store-search-box">
+                    <div class="header-links-wrapper">
+                            <div class="header-links">
+                                <ul>
+                                    <li>
+                                        <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li >
+                                        <a href="#" ><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li >
+                                        <a href="#" ><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                <form action="/search" id="small-search-box-form" method="get">    
+                    <div class="swapper-search">
+                        <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" />
+                        
+                        <button class="search-form_submit fas fa-search" type="submit"></button>
+                    <!-- RD Navbar -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="rd-navbar-wrap">
+        <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="150px" class="rd-navbar">
+            <div class="rd-navbar-inner">
+                <!-- RD Navbar Panel -->
+                <div class="rd-navbar-panel">
+                    <div class="rd-navbar-panel-canvas"></div>
+
+                    <!-- RD Navbar Toggle -->
+                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
+                        <span></span>
+                    </button>
+                    <!-- END RD Navbar Toggle -->
+                </div>
+                <!-- END RD Navbar Panel -->
+            </div>
+            <div class="rd-navbar-outer">
+                <div class="rd-navbar-inner">
+                    <div class="rd-navbar-subpanel">
+                        <div class="rd-navbar-nav-wrap">
+                            <!-- RD Navbar Nav -->
+                            <ul class="rd-navbar-nav">
+                                <li class="active cus-home">
+                                    <!-- 
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a> -->
+                                    <a  href="test.html">
+                                        <i class="fas fa-home"></i>
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-product" href="/computers">Sản Phẩm
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                    <!-- RD Navbar Dropdown -->
+                                    <ul class="rd-navbar-dropdown">
+                                        <li>
+                                            <a href="shortcodes.php">Shortcodes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Lorem ipsum dolor</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li>
+                                                    <a href='#'>Lorem ipsum dolor</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Nulla sequi, sint</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Corporis, quos, sit</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Dolor sit amet</a>
+                                        </li>
+                                    </ul>
+                                    <!-- END RD Navbar Dropdown -->
+
+                                </li>
+                                <li>
+                                    <a class="menu-categories" href="/electronics">Danh Mục
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                    <!-- RD Navbar Megamenu -->
+                                    <ul class="rd-navbar-megamenu">
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Titanium Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Metal Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Steel Detailing</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Steel Coating</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href='#'>Steel Plate Shearing</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Brazing</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Annealing</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Deburring</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Structural Steel Detailing</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href='#'>Stainless Steel &amp; Round Bar</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Plate &amp; Sheet</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>CNC, 7-Axis</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Steel Mill Maintenance</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Structural Steel</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+
+                                                <li>
+                                                    <a href='#'>Grinder Remanufacturing</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Cutting</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Coating</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Polishing</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Heat Treating</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a href='#'>Tube Fabrication &amp; Bending</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Steel Hardening</a>
+                                                </li>
+                                                <li>
+                                                    <a href='#'>Stainless Steel Welding</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <!-- END RD Navbar Megamenu -->
+
+                                </li>
+                                <li>
+                                    <a class="menu-treatment" href="/apparel">Điều Trị
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-his-company" href="/digital-downloads">Lịch Sử CT
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-brand" href="/books">Hệ Thống Phân Phối
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-news" href="/jewelry">Tin Tức
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-contact" href="/gift-cards">Liên Hệ
+                                        <span class="under-line" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- END RD Navbar Nav -->
+                        </div>
+
+                        <!-- RD Navbar Search Toggle -->
+                        <div class="rd-navbar-search-wrap">
+                            <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar, .rd-navbar-inner">
+                                <i class="fas fa-times"></i>
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <div class="rd-navbar-search">
+                                <form action="" method="post">
+                                    <div class="form-group">
+                                        <input id="rd-navbar-search-input" type="text" class="form-control"
+                                                placeholder="">
+                                    </div>
+                                    <button type="submit" class="material-icons-search"></button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- END RD Navbar Search Toggle -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- END RD Navbar -->
+    <div class="master-wrapper-content categories-content">
+            
+                <div class="master-column-wrapper">
+                
+    
+    <div class="side-2">
+    
+        <div class="block block-category-navigation">
+            <div class="title">
+                <strong>Categories</strong>
+            </div>
+            <div class="listbox">
+                <ul class="list">
+        <li class="active">
+            <a href="/computers">Computers
+            </a>
+                <ul class="sublist">
+        <li class="active last">
+            <a href="/desktops">Desktops
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/notebooks">Notebooks
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/software">Software
+            </a>
+    
+        </li>
+                </ul>
+    
+        </li>
+        <li class="inactive">
+            <a href="/electronics">Electronics
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/apparel">Apparel
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/digital-downloads">Digital downloads
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/books">Books
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/jewelry">Jewelry
+            </a>
+    
+        </li>
+        <li class="inactive">
+            <a href="/gift-cards">Gift Cards
+            </a>
+    
+        </li>
+                </ul>
+            </div>
+        </div>
+        <div class="block block-manufacturer-navigation">
+            <div class="title">
+                <strong>Manufacturers</strong>
+            </div>
+            <div class="listbox">
+                <ul class="list">
+                        <li class="inactive"><a href="/apple">Apple</a>
+                        </li>
+                        <li class="inactive"><a href="/hp">HP</a>
+                        </li>
+                </ul>
+                    <div class="view-all">
+                        <a href="/manufacturer/all">View all</a>
+                    </div>
+            </div>
+        </div>
+        <div class="block block-recently-viewed-products">
+            <div class="title">
+                <strong>Recently viewed products</strong>
+            </div>
+            <div class="listbox">
+                <ul class="list">
+                        <li  class="last">
+                                <a class="product-picture" href="/build-your-own-computer" title="Show details for Build your own computer">
+                                    <img alt="Picture of Build your own computer" src="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/content/images/thumbs/0000020_build-your-own-computer_64.jpeg" title="Show details for Build your own computer" />
+                                </a>
+                            <a class="product-name" href="/build-your-own-computer">Build your own computer</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <div class="block block-popular-tags">
+            <div class="title">
+                <strong>Popular tags</strong>
+            </div>
+            <div class="listbox">
+                <div class="tags">
+                    <ul>
+                            <li><a href="/producttag/4/apparel" style="font-size:100%;">apparel</a></li>
+                            <li><a href="/producttag/8/awesome" style="font-size:150%;">awesome</a></li>
+                            <li><a href="/producttag/10/book" style="font-size:85%;">book</a></li>
+                            <li><a href="/producttag/12/camera" style="font-size:85%;">camera</a></li>
+                            <li><a href="/producttag/11/cell" style="font-size:85%;">cell</a></li>
+                            <li><a href="/producttag/9/compact" style="font-size:90%;">compact</a></li>
+                            <li><a href="/producttag/6/computer" style="font-size:120%;">computer</a></li>
+                            <li><a href="/producttag/3/cool" style="font-size:150%;">cool</a></li>
+                            <li><a href="/producttag/16/digital" style="font-size:85%;">digital</a></li>
+                            <li><a href="/producttag/15/game" style="font-size:85%;">game</a></li>
+                            <li><a href="/producttag/14/jeans" style="font-size:85%;">jeans</a></li>
+                            <li><a href="/producttag/13/jewelry" style="font-size:85%;">jewelry</a></li>
+                            <li><a href="/producttag/1/nice" style="font-size:90%;">nice</a></li>
+                            <li><a href="/producttag/5/shirt" style="font-size:85%;">shirt</a></li>
+                            <li><a href="/producttag/7/shoes" style="font-size:85%;">shoes</a></li>
+                    </ul>
+                </div>
+                    <div class="view-all">
+                        <a href="/producttag/all">View all</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="center-2">
+        
+        
+    
+    <div class="page category-page">
+        <div class="page-title">
+            <h1>Desktops</h1>
+        </div>
+        <div class="page-body">
+            
+            
+            
+            
+            
+            
+            
+    
+    <div class="product-selectors">
+        
+            <div class="product-viewmode">
+                <span>View as</span>
+                    <a class="viewmode-icon grid selected" href="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?viewmode=grid" title="Grid">Grid</a>
+                    <a class="viewmode-icon list " href="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?viewmode=list" title="List">List</a>
+            </div>
+                <div class="product-sorting">
+                <span>Sort by</span>
+                <select id="products-orderby" name="products-orderby" onchange="setLocation(this.value);"><option selected="selected" value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?orderby=0">Position</option>
+    <option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?orderby=5">Name: A to Z</option>
+    <option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?orderby=6">Name: Z to A</option>
+    <option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?orderby=10">Price: Low to High</option>
+    <option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?orderby=11">Price: High to Low</option>
+    <option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?orderby=15">Created on</option>
+    </select>
+            </div>
+                <div class="product-page-size">
+                <span>Display</span>
+                <select id="products-pagesize" name="products-pagesize" onchange="setLocation(this.value);"><option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?pagesize=3">3</option>
+    <option selected="selected" value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?pagesize=6">6</option>
+    <option value="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?pagesize=9">9</option>
+    </select>
+                <span>per page</span>
+            </div>
+    </div>        
+            <div class="product-filters">
+                
+    
+        <div class="product-filter price-range-filter">
+            <div class="filter-title">
+                <strong>Filter by price</strong>
+            </div>
+            <div class="filter-content">
+                    <div class="available-items">
+                        <ul class="group price-range-group">
+                                <li><a href="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?price=-1000">    Under <span class="PriceRange">$1,000.00</span>
+    </a></li>
+                                <li><a href="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?price=1000-1200">    <span class="PriceRange">$1,000.00</span> - <span class="PriceRange">$1,200.00</span>
+    </a></li>
+                                <li><a href="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/desktops?price=1200-">    Over <span class="PriceRange">$1,200.00</span>
+    </a></li>
+                        </ul>
+                    </div>
+            </div>
+    
+        </div>
+                        </div>
+            
+    
+                <div class="product-grid">
+                    <div class="item-grid">
+                            <div class="item-box">
+                                
+    <div class="product-item" data-productid="1">
+        <div class="picture">
+            <a href="/build-your-own-computer" title="Show details for Build your own computer">
+                <img alt="Picture of Build your own computer" src="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/content/images/thumbs/0000020_build-your-own-computer_415.jpeg" title="Show details for Build your own computer" />
+            </a>
+        </div>
+        <div class="details">
+            <h2 class="product-title">
+                <a href="/build-your-own-computer">Build your own computer</a>
+            </h2>
+                        <div class="product-rating-box" title="1 review(s)">
+                    <div class="rating">
+                        <div style="width: 80%">
+                        </div>
+                    </div>
+                </div>
+            <div class="description">
+                Build it
+            </div>
+            <div class="add-info">
+                
+                <div class="prices">
+                    <span class="price actual-price">$1,200.00</span>
+                                </div>
+                
+                <div class="buttons">
+                    
+                        <input type="button" value="Add to cart" class="button-2 product-box-add-to-cart-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/1/1/1');return false;" />
+                                        <input type="button" value="Add to compare list" title="Add to compare list" class="button-2 add-to-compare-list-button" onclick="AjaxCart.addproducttocomparelist('/compareproducts/add/1');return false;" />
+                                        <input type="button" value="Add to wishlist" title="Add to wishlist" class="button-2 add-to-wishlist-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/1/2/1');return false;" />
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+                            </div>
+                            <div class="item-box">
+                                
+    <div class="product-item" data-productid="2">
+        <div class="picture">
+            <a href="/digital-storm-vanquish-3-custom-performance-pc" title="Show details for Digital Storm VANQUISH 3 Custom Performance PC">
+                <img alt="Picture of Digital Storm VANQUISH 3 Custom Performance PC" src="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/content/images/thumbs/0000022_digital-storm-vanquish-3-custom-performance-pc_415.jpeg" title="Show details for Digital Storm VANQUISH 3 Custom Performance PC" />
+            </a>
+        </div>
+        <div class="details">
+            <h2 class="product-title">
+                <a href="/digital-storm-vanquish-3-custom-performance-pc">Digital Storm VANQUISH 3 Custom Performance PC</a>
+            </h2>
+                        <div class="product-rating-box" title="1 review(s)">
+                    <div class="rating">
+                        <div style="width: 80%">
+                        </div>
+                    </div>
+                </div>
+            <div class="description">
+                Digital Storm Vanquish 3 Desktop PC
+            </div>
+            <div class="add-info">
+                
+                <div class="prices">
+                    <span class="price actual-price">$1,259.00</span>
+                                </div>
+                
+                <div class="buttons">
+                    
+                        <input type="button" value="Add to cart" class="button-2 product-box-add-to-cart-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/2/1/1');return false;" />
+                                        <input type="button" value="Add to compare list" title="Add to compare list" class="button-2 add-to-compare-list-button" onclick="AjaxCart.addproducttocomparelist('/compareproducts/add/2');return false;" />
+                                        <input type="button" value="Add to wishlist" title="Add to wishlist" class="button-2 add-to-wishlist-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/2/2/1');return false;" />
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+                            </div>
+                            <div class="item-box">
+                                
+    <div class="product-item" data-productid="3">
+        <div class="picture">
+            <a href="/lenovo-ideacentre-600-all-in-one-pc" title="Show details for Lenovo IdeaCentre 600 All-in-One PC">
+                <img alt="Picture of Lenovo IdeaCentre 600 All-in-One PC" src="http://strivingearthy.theme.demo.nopcommerce.strivingprogrammers.com/content/images/thumbs/0000023_lenovo-ideacentre-600-all-in-one-pc_415.jpeg" title="Show details for Lenovo IdeaCentre 600 All-in-One PC" />
+            </a>
+        </div>
+        <div class="details">
+            <h2 class="product-title">
+                <a href="/lenovo-ideacentre-600-all-in-one-pc">Lenovo IdeaCentre 600 All-in-One PC</a>
+            </h2>
+                        <div class="product-rating-box" title="1 review(s)">
+                    <div class="rating">
+                        <div style="width: 80%">
+                        </div>
+                    </div>
+                </div>
+            <div class="description">
+                
+            </div>
+            <div class="add-info">
+                
+                <div class="prices">
+                    <span class="price actual-price">$500.00</span>
+                                </div>
+                
+                <div class="buttons">
+                    
+                        <input type="button" value="Add to cart" class="button-2 product-box-add-to-cart-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/3/1/1');return false;" />
+                                        <input type="button" value="Add to compare list" title="Add to compare list" class="button-2 add-to-compare-list-button" onclick="AjaxCart.addproducttocomparelist('/compareproducts/add/3');return false;" />
+                                        <input type="button" value="Add to wishlist" title="Add to wishlist" class="button-2 add-to-wishlist-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/3/2/1');return false;" />
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+                            </div>
+                    </div>
+                </div>
+            
+            
+        </div>
+    </div>
+    
+        
+    </div>
+    
+            </div>
+            
+        </div>
+    <div class="footer">
+        <div class="footer-upper">
+            <div class="col-md-2 col-sm-6 col-xs-12 ">
+                <div>
+                    <img class="logo-footer" src="images/logoFooter.png" alt="">
+                </div>
+            </div>
+            <div class=" slider-product col-md-5 col-sm-6 col-xs-12">
+                <h4>
+                    Thông Tin Liên Hệ
+                </h4>
+                <h4><small class="small-info">Công ty dược phẩm Quang Minh</small></h4>
+                <h4><small class="small-info">4A đường Lò Lu, phường Trường Thạnh, Quận 9</small></h4>
+            </div>
+            <div class=" slider-product col-md-2 col-sm-6 col-xs-12">
+                    <h4>
+                    HotLine
+                </h4>
+                <h4><small class="small-info">09 88 850 966</small></h4>
+            </div>
+            <div class=" slider-product col-md-3 col-sm-6 col-xs-12">
+                    <h4><small class="small-info"><i class="fab fa-facebook-f"></i><i class="fab fa-youtube"></i><i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i><i class="fab fa-behance"></i>
+                    </small></h4>
+                    <h4><small class="small-info"><i class="fas fa-envelope"></i>heloCongty@gmail.com</small></h4>
+            </div>
+        </div>  
+    </div>
+</div>
+<script src="custom-script.js"></script>
+</body>
