@@ -29,9 +29,11 @@
 }
 .rd-navbar-static .rd-navbar-dropdown li > a{
     color: #e31837;
-    background-color: #fff;
 }
-
+.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-static .rd-navbar-megamenu {
+    color: #e31837;
+    background-color: #ecdddd;
+}
 .rd-navbar-static .rd-navbar-megamenu li > a:hover{
     color: #fff;
     background-color: #9e1126;
