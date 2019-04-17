@@ -541,3 +541,6 @@ a.search-form_toggle{
 .rd-navbar-static .rd-navbar-submenu-toggle i{
     display: none;
 }
+.footer-upper{
+    border-bottom: unset;
+}

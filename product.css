@@ -39,6 +39,11 @@
 .block a.product-picture + a.product-name{
     margin-left: 10px;
 }
+.block .list a:hover{
+    color: #9e1126;
+    text-decoration: unset;
+}
+
 @media (min-width: 1001px){
     .master-wrapper-content.categories-content{
         width: 875px;
@@ -46,4 +51,15 @@
     .block .title{
         font-size: 17px;
     }
+}
+
+.news-title-cus{
+    color: #e31837;
+    font-size: 25px;
+}
+
+.footer.contact-page{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
