@@ -549,4 +549,22 @@ a.search-form_toggle{
     .rd-navbar-megamenu.product{
         width: 52%;
     }
+    .block .list a:before{
+        content: unset;
+    }
+    .block .list li{
+        padding: 5px 0 5px 0px;
+    }
+}
+
+@media (min-width: 1001px){
+    .center-2 {
+        width: 70%;
+    }
+    .side-2 {
+        width: 28%;
+    }
+    .block .list a{
+        font-size: 14px;
+    }
 }
