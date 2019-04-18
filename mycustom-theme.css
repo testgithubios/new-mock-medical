@@ -568,3 +568,7 @@ a.search-form_toggle{
         font-size: 14px;
     }
 }
+
+.footer .small-info a{
+    color: #fff;
+}
