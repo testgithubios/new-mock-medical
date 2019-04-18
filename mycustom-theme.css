@@ -544,3 +544,9 @@ a.search-form_toggle{
 .footer-upper{
     border-bottom: unset;
 }
+
+@media (min-width: 992px){
+    .rd-navbar-megamenu.product{
+        width: 52%;
+    }
+}
