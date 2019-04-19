@@ -580,3 +580,10 @@ a.search-form_toggle{
     width: 150px;
     height: 70px;
 }
+
+/* hien co 4 partner nen add them css nay, neu nhieu hon thi bo */
+.partner-info .row{
+    margin-left: unset;
+    margin-right: unset;
+    padding-left: 100px;
+}
