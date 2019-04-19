@@ -1,0 +1,557 @@
+
+
+
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Your store</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link href="jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    
+    <link href="custom.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="public.common.js" type="text/javascript"></script>
+    
+    <link href="rd-navbar.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.rd-navbar.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.4.0-3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.4.0-3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css">
+    <link href="mycustom-theme.css" rel="stylesheet" type="text/css" />
+    <link href="about-us.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="master-wrapper-page">
+    <!-- RD Navbar -->
+    <div class="header">
+        <div class="header-lower">
+            <div class="header-logo">
+                <a href="/">
+                    <img title="" alt="Your store name" src="images/logo.PNG">
+                </a>
+            </div>
+            <div class="search-box store-search-box">
+                    <div class="header-links-wrapper">
+                            <div class="header-links">
+                                <ul>
+                                    <li>
+                                        <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li >
+                                        <a href="#" ><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li >
+                                        <a href="#" ><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                <form action="/search" id="small-search-box-form" method="get">    
+                    <div class="swapper-search">
+                        <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" />
+                        
+                        <button class="search-form_submit fas fa-search" type="submit"></button>
+                    <!-- RD Navbar -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="rd-navbar-wrap">
+            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="150px" class="rd-navbar">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Panel -->
+                    <div class="rd-navbar-panel">
+                        <div class="rd-navbar-panel-canvas"></div>
+
+                        <!-- RD Navbar Toggle -->
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
+                            <span></span>
+                        </button>
+                        <!-- END RD Navbar Toggle -->
+                    </div>
+                    <!-- END RD Navbar Panel -->
+                </div>
+                <div class="rd-navbar-outer">
+                    <div class="rd-navbar-inner">
+                        <div class="rd-navbar-subpanel">
+                            <div class="rd-navbar-nav-wrap">
+                                <!-- RD Navbar Nav -->
+                                <ul class="rd-navbar-nav">
+                                    <li class="active cus-home">
+                                        <!-- 
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a> -->
+                                        <a  href="test.html">
+                                            <i class="fas fa-home"></i>
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-product" href="product.html">Sản Phẩm
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                        <!-- RD Navbar Dropdown -->
+                                        <ul class="rd-navbar-megamenu product">
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href="shortcodes.php">THUỐC GiẢM ĐAU, HẠ SỐT NGƯỜI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">BÔI NGOÀI DA, SÁT TRÙNG</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">DUNG DỊCH MẮT, TAI, MŨI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">SIRO - VITAMIN</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">THUỐC PHỤ KHOA</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>THUỐC NGỪA THAI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>DUNG DỊCH VỆ SINH PHỤ NỮ</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>THUỐC KHÁNG VIÊM - AN THẦN</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>DUNG DỊCH VỆ SINH RĂNG MIỆNG</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>THUỐC HO - SỔ MŨI - VIÊM MŨI DỊ ỨNG</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>KHẨU TRANG Y TẾ</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <!-- END RD Navbar Dropdown -->
+
+                                    </li>
+                                    <li>
+                                        <a class="menu-categories" href="/electronics">Danh Mục
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                        <!-- RD Navbar Megamenu -->
+                                        <ul class="rd-navbar-megamenu">
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Service</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Titanium Service</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Metal Service</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Detailing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Coating</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Steel Plate Shearing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Brazing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Annealing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Deburring</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Structural Steel Detailing</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel &amp; Round Bar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Plate &amp; Sheet</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>CNC, 7-Axis</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Mill Maintenance</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Structural Steel</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+
+                                                    <li>
+                                                        <a href='#'>Grinder Remanufacturing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Cutting</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Coating</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Polishing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Heat Treating</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'>Tube Fabrication &amp; Bending</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Steel Hardening</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>Stainless Steel Welding</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <!-- END RD Navbar Megamenu -->
+
+                                    </li>
+                                    <li>
+                                        <a class="menu-treatment" href="treatment.html">Điều Trị
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-his-company" href="/digital-downloads">Lịch Sử CT
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-brand" href="/books">Hệ Thống Phân Phối
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-news" href="news.html">Tin Tức
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-contact" href="contact.html">Liên Hệ
+                                            <span class="under-line" aria-hidden="true"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- END RD Navbar Nav -->
+                            </div>
+
+                            <!-- RD Navbar Search Toggle -->
+                            <div class="rd-navbar-search-wrap">
+                                <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar, .rd-navbar-inner">
+                                    <i class="fas fa-times"></i>
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <div class="rd-navbar-search">
+                                    <form action="" method="post">
+                                        <div class="form-group">
+                                            <input id="rd-navbar-search-input" type="text" class="form-control"
+                                                   placeholder="">
+                                        </div>
+                                        <button type="submit" class="material-icons-search"></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- END RD Navbar Search Toggle -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+    <div class="master-wrapper-content">
+        <main class="about-us">        
+
+            <section class="well well4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12"  >
+                    <h2>
+                      Giới Thiệu
+                    </h2>
+                    <p class="lead">
+                        Công ty CPTM Dược Phẩm Quang Minh – QM.MEDIPHAR tiền thân là Cty bao bì Y Tế Đức Thịnh 
+                    </p>
+                    <p>
+                        Cty Quang Minh có mối quan hệ đối tác chặt chẽ với 64 khách hàng là cty nhà nước, cty CP, 90 công ty TNHH, DNTN và 
+                        trên 2.000 nhà thuốc trên cả nước. Cty có 49 mặt hàng tự nghiên cứu SX đã tham gia vào việc chữa bệnh cho cộng đồng 
+                        tăng thêm uy tín cho các thầy thuốc sử dụng sản phẩm để điều trị cho bệnh nhân – được Bộ Y Tế cho phép lưu hành toàn 
+                        quốc. Trong đó 35 mặt hàng có uy tín, kinh doanh có lãi. 100% sản phẩm của công ty đều đã được bảo hộ độc quyền tại
+                        Cục Sở Hữu Trí Tuệ. Nhiều mặt hàng chiến lược đứng vững trên thị trường mặc dù có sự cạnh tranh khốc liệt như :
+                      <br />
+                      TRANGALA. KEDERMFA, GẤU MISA, GENMYSONE, SHIMAX, POLYMAX, NICOBET, RUMENADOL, EFFEBABY...
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12" >
+                    <h2>
+                     Lịch Sử
+                    </h2>
+                    <article class='media offs2'>
+                      <div class="media-left text-center">
+                        <time datetime='1982    '>1982</time>
+                      </div>
+                      <div class="media-body">                  
+                        <p>
+                            Công ty CPTM Dược Phẩm Quang Minh – QM.MEDIPHAR tiền thân là Cty bao bì Y Tế Đức Thịnh ra đời năm 1982
+                        </p>
+                      </div>
+                    </article>
+      
+                    <article class='media'>
+                      <div class="media-left text-center">
+                        <time datetime='1996'>1996 </time>
+                      </div>
+                      <div class="media-body">                  
+                        <p>
+                            Lấy tên mới là Cty TNHH TMDP và Bao Bì Y Tế Quang Minh
+                        </p>
+                      </div>
+                    </article>
+                    
+                    <article class='media'>
+                      <div class="media-left text-center">
+                        <time datetime='1999 '>1999 </time>
+                      </div>
+                      <div class="media-body">                  
+                        <p>
+                            Cty xây dựng nhà máy sản xuất thuốc dùng cho người.
+                        </p>
+                      </div>
+                    </article>
+      
+                    <article class='media'>
+                      <div class="media-left text-center">
+                        <time datetime='2000 '>2000 </time>
+                      </div>
+                      <div class="media-body">                  
+                        <p>
+                            nhà máy của Cty đi vào hoạt động và được Bộ Y Tế VN công nhận là nhà máy SX thuốc đạt tiêu chuẩn GMP
+                            và đây cũng là nhà máy sản xuất Dược phẩm tư nhân đầu tiên ở VN đạt tiêu chuẩn GMP. 
+                            Có thể nói đây là cột mốc " đáng ghi nhận nhất” đối với Quang Minh từ những ngày đầu 
+                            còn nhiều khó khăn
+                        </p>
+                      </div>
+                    </article>
+      
+                  </div>
+                  <!-- <div class="col-md-4 col-sm-12 col-xs-12" >
+                      <h2>
+                        Tuyển
+                        <small>
+                          Dụng
+                        </small>
+                        </h2>
+      
+                    <p class="lead offs2">
+                      Folor sit amet conse ctetur adipisicing elit
+                    </p>
+      
+                    <p>
+                      Curabitur eu lorem ac lacus laoreet auctor. Fusce vitae orci nec velit ornare rhoncus ut tempus est. Mauris eu augue lorem. Suspendisse sit amet vehi cula nisl, nec faucibus nisl. Proin ac
+                    </p>
+      
+                    <ul class="marked-list">                
+                      <li>
+                        <a href="#">
+                          Curabitur eu lorem ac lacus laoreet auctor
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Fusce itae orci nec velit ornare rhon
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Ecus ut tempus estauris eu augue lorem.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Suspendisse sit amet vehicula
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Anisl, nec faucibus nislroin ac fermentum 
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Horci, non semper metusulla nulla
+                        </a>
+                      </li>
+                    </ul>
+      
+                    <p>
+                      Erci nec velit ornare rhoncus ut tempus est. Mauris eu augue lorem. Suspendisse sit amet vehi cula nisl, nec faucibus nisl. Proin ac fermentum orci, non semper metus. Nulla nulla tellus, tincidunt vel eros gravida, cursus cursus nisl. Nullam ac
+                    </p>
+      
+                  </div> -->
+                </div>
+              </div>
+            </section>
+      
+            <section class="well well4 bg1 wow fadeIn" data-wow-duration='3s'>
+              <div class="container">
+              <h2>
+                Thành Viên
+              </h2>
+                <div class="row offs3 center767">
+                  <div class="col-md-12 col-sm-12 col-xs-12" >
+                    <p>
+                        Về nhân lực, trẻ hóa đội ngũ cán bộ quản lý, nâng cao tay nghề cho công nhân, cải tiến chính sách, chế độ tiền lương, trả thưởng cho người lao động theo hướng thúc đẩy sự sáng tạo và cống hiến của mỗi người, bố trí đúng người đúng việc, tạo sức hấp dẫn đối với cán bộ trẻ. Chăm lo tốt đời sống vật chất và tinh thần cho mọi cán bộ, công nhân viên, thường xuyên phát động phong trào thi đua lao động sản xuất, phát huy sáng kiến, cải tiến kỹ thuật, tăng năng suất lao động, tiết kiệm nguyên nhiên vật liệu và thời gian lao động, hình thành tinh thần làm việc có tính kỷ luật cao, xây dựng nền nếp văn minh công nghiệp, thái độ cư xử thân thiện và giao tiếp văn minh, lịch sự, phát triển văn hóa doanh nghiệp...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>    
+      
+            <section class="well well5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12" >
+                    <h2>
+                      Chiến lược
+                    </h2>
+                    <ul class="index-list">
+                      <li>
+                         Không ngừng cải tiến chất lượng sản phẩm và phát triển sản phẩm mới ở mức cao
+                      </li>
+                      <li>
+                        Cung cấp cho khách hàng những sản phẩm tốt nhất với thời gian đáp ứng ngắn nhất.
+                      </li>
+                      <li>
+                        Duy trì và phát triển tốt thị trường trong nước, mở rộng xuất khẩu.
+                      </li>
+                      <li>
+                        Cũng cố phát triển, tăng mức độ nhận biết thương hiệu ra nước ngoài.
+                      </li>
+                      <li>
+                        Trở thành một trong các nhà sản xuất và cung cấp thuốc chữa bệnh hiệu quả, uy tín nhất trong nước và khu vực.
+                      </li>
+                    </ul>  
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" >
+                    <h2>
+                        Giải thưởng 
+                    </h2>
+                            
+                    <ul class="award">
+                        <li>
+                            Bằng khen của Thủ Tướng Chính Phủ về thành tích trong SX - KD và những đóng góp tích cực trong cộng đồng doanh nghiệp.
+                        </li>
+                        <li>
+                            Bộ Trưởng Bộ Y tế tặng Cúp Vàng vì Sức Khỏe người Việt
+                        </li>
+                        <li>
+                            Giấy khen của Bộ Trưởng Bộ Y Tế Cho phòng kiểm nghiệm của Cty
+                        </li>
+                        <li>
+                            Được Người tiêu dùng bình chọn là HÀNG VIỆT NAM CHẤT LƯỢNG CAO.
+                        </li>
+                        <li>
+                            Danh hiệu THƯƠNG HIỆU UY TÍN tại Hội chợ Thương Hiệu nổi tiếng tại VN
+                        </li>
+                        <li>
+                            Cúp vàng Thương Hiệu Việt - Bằng khen của UBND TPHCM về Môi trường Xanh, Sạch, Đẹp.
+                        </li>
+                        <li>
+                            Giấy khen của UBND Q9 có thành tích trong việc xóa đói giảm nghèo
+                        </li>
+                        <li>
+                            Giấy khen của UBND Phường Trường Thạnh – Q9 có thành tích trong việc xóa đói giảm nghèo và các công tác xã hội tại địa phương.
+                        </li>
+                    </ul>  
+                                 
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" >
+                    <h2>
+                      Tài chính
+                    </h2>
+                    
+                    <p>
+                        Duy trì thực trạng tài chính lành mạnh và ổn định, sử dụng các quỹ tài chính của Công ty đúng mục đích, có hiệu quả và có tái tạo thặng dư, bổ sung nguồn vốn ngày càng nhiều hơn. Tích cực tìm kiếm nguồn vốn tài trợ có mức chi phí thấp để hỗ trợ bổ sung vốn trong kinh doanh. Bên cạnh đó, nguồn tài chính ổn định đã giúp công ty không ngừng cải tiến, nâng cấp, đầu tư nhà xưởng, máy móc thiết bị hiện đại
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+      
+          </main>
+    </div>
+   
+    <div class="footer">
+        <div class="footer-upper">
+            <div class="col-md-2 col-sm-6 col-xs-12 ">
+                <div>
+                    <img class="logo-footer" src="images/logoFooter.png" alt="">
+                </div>
+            </div>
+            <div class=" slider-product col-md-5 col-sm-6 col-xs-12">
+                <h4>
+                    Thông Tin Liên Hệ
+                </h4>
+                <h4><small class="small-info">Công ty dược phẩm Quang Minh</small></h4>
+                <h4><small class="small-info">4A đường Lò Lu, phường Trường Thạnh, Quận 9</small></h4>
+            </div>
+            <div class=" slider-product col-md-2 col-sm-6 col-xs-12">
+                    <h4>
+                    HotLine
+                </h4>
+                <h4><small class="small-info">09 88 850 966</small></h4>
+            </div>
+            <div class=" slider-product col-md-3 col-sm-6 col-xs-12">
+                    <h4><small class="small-info"><i class="fab fa-facebook-f"></i><i class="fab fa-youtube"></i><i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i><i class="fab fa-behance"></i>
+                    </small></h4>
+                    <h4><small class="small-info"><i class="fas fa-envelope"></i>heloCongty@gmail.com</small></h4>
+            </div>
+        </div>  
+    </div>
+</div>
+<script src="custom-script.js"></script>
+</body>

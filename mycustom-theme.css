@@ -572,3 +572,7 @@ a.search-form_toggle{
 .footer .small-info a{
     color: #fff;
 }
+
+.master-wrapper-content .container{
+    width: 100%;
+}
