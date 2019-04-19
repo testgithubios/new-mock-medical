@@ -576,3 +576,7 @@ a.search-form_toggle{
 .master-wrapper-content .container{
     width: 100%;
 }
+.partner-info .flex-list img{
+    width: 150px;
+    height: 70px;
+}
