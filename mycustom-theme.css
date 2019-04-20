@@ -242,7 +242,8 @@ ol, ul{
     cursor: default;
     color: #fff;
     text-decoration: unset;
-    font-size: 25px;
+    font-size: 30px;
+    padding:25px 10px;
 }
 .header-menu.sologan > ul > li > a:hover {
     background-color:unset;
