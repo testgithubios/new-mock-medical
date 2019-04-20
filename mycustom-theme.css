@@ -588,3 +588,26 @@ a.search-form_toggle{
     margin-right: unset;
     padding-left: 100px;
 }
+
+.treatment-detail .page-title h1{
+    color: #e31837;
+    font-size: 25px;
+}
+
+.img-treatment-detail img{
+    height: 350px;
+    width: 100%;
+}
+.img-branch {
+    text-align: center;
+}
+.img-branch img{
+    max-width: 89%;
+    height: 954px;
+}
+
+@media (max-width: 992px){
+    .treatment-detail{
+        margin-top: 70px;
+    }
+}
