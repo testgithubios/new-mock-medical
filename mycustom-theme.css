@@ -611,3 +611,8 @@ a.search-form_toggle{
         margin-top: 70px;
     }
 }
+
+.product-custom-class .product-item .picture img{
+    width: 100%;
+    height: 100%;
+}
